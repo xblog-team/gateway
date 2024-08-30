@@ -1,1 +1,9 @@
+spring:
+  profiles:
+    active: dev
 
+  main:
+    web-application-type: reactive
+
+server:
+  shutdown: graceful

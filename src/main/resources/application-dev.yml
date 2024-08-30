@@ -1,0 +1,17 @@
+custom:
+  jwt:
+    secret: 31a867154385dc23d90eaec816744354
+
+filter:
+  jwt:
+    excludePath: test, test-8
+
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+eureka:
+  client:
+    enabled: false
